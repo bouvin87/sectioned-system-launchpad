@@ -12,7 +12,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-3">
             <img 
-              src="/lovable-uploads/2024_12_23_15_45_29_965_DSEC_LOGO_2020_RGB.png" 
+              src="/logo.svg" 
               alt="System by Sections Logo" 
               className="h-10 w-auto"
             />
