@@ -1,32 +1,36 @@
 
-const steps = [
-  {
-    number: "01",
-    title: "Choose your modules",
-    description: "Select from our library of production modules. Start with what you need most and add more later."
-  },
-  {
-    number: "02", 
-    title: "Invite your team",
-    description: "Add unlimited team members at no extra cost. Set up roles and permissions for different departments."
-  },
-  {
-    number: "03",
-    title: "Start logging and improving",
-    description: "Begin digitizing your processes immediately. Track performance and identify improvement opportunities."
-  }
-];
+import { useTranslation } from 'react-i18next';
 
 const HowItWorks = () => {
+  const { t } = useTranslation();
+
+  const steps = [
+    {
+      number: "01",
+      title: t('howItWorks.step1.title'),
+      description: t('howItWorks.step1.description')
+    },
+    {
+      number: "02", 
+      title: t('howItWorks.step2.title'),
+      description: t('howItWorks.step2.description')
+    },
+    {
+      number: "03",
+      title: t('howItWorks.step3.title'),
+      description: t('howItWorks.step3.description')
+    }
+  ];
+
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
-            How it works
+            {t('howItWorks.title')}
           </h2>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            Get started in minutes, not months. Our streamlined setup gets your team productive fast.
+            {t('howItWorks.subtitle')}
           </p>
         </div>
         

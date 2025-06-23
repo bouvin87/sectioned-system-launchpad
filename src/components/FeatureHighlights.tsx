@@ -1,51 +1,53 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle, AlertTriangle, Settings, MessageSquare, BarChart2, Zap } from "lucide-react";
-
-const features = [
-  {
-    icon: CheckCircle,
-    title: "Smart Checklists",
-    description: "Digital checklists for daily routines with progress tracking and automated reminders."
-  },
-  {
-    icon: AlertTriangle,
-    title: "Deviation Tracking",
-    description: "Log and trace deviations with full audit trails and corrective action workflows."
-  },
-  {
-    icon: Settings,
-    title: "Maintenance Management",
-    description: "Schedule preventive maintenance and track equipment performance in real-time."
-  },
-  {
-    icon: MessageSquare,
-    title: "Issue Reporting",
-    description: "Streamlined issue management with follow-up actions and resolution tracking."
-  },
-  {
-    icon: BarChart2,
-    title: "Real-time Dashboards",
-    description: "Comprehensive analytics and reporting for data-driven decision making."
-  },
-  {
-    icon: Zap,
-    title: "REST API Integration",
-    description: "Seamlessly connect with your existing systems through our powerful API."
-  }
-];
+import { useTranslation } from 'react-i18next';
 
 const FeatureHighlights = () => {
+  const { t } = useTranslation();
+
+  const features = [
+    {
+      icon: CheckCircle,
+      title: t('features.smartChecklists.title'),
+      description: t('features.smartChecklists.description')
+    },
+    {
+      icon: AlertTriangle,
+      title: t('features.deviationTracking.title'),
+      description: t('features.deviationTracking.description')
+    },
+    {
+      icon: Settings,
+      title: t('features.maintenanceManagement.title'),
+      description: t('features.maintenanceManagement.description')
+    },
+    {
+      icon: MessageSquare,
+      title: t('features.issueReporting.title'),
+      description: t('features.issueReporting.description')
+    },
+    {
+      icon: BarChart2,
+      title: t('features.dashboards.title'),
+      description: t('features.dashboards.description')
+    },
+    {
+      icon: Zap,
+      title: t('features.apiIntegration.title'),
+      description: t('features.apiIntegration.description')
+    }
+  ];
+
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
-            Everything you need to modernize production
+            {t('features.title')}
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Our modular platform grows with your needs, providing the tools to digitize 
-            every aspect of your manufacturing operations.
+            {t('features.subtitle')}
           </p>
         </div>
         

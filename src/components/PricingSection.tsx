@@ -2,46 +2,49 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 
 const PricingSection = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="py-20 bg-slate-50">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
-            Simple, transparent pricing
+            {t('pricing.title')}
           </h2>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            No hidden fees, no per-user charges. Pay only for what you use.
+            {t('pricing.subtitle')}
           </p>
         </div>
         
         <div className="max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
           <Card className="border-2 border-slate-200 hover:border-primary-blue transition-colors">
             <CardHeader className="text-center pb-8">
-              <CardTitle className="text-2xl font-bold text-slate-900">Platform Access</CardTitle>
+              <CardTitle className="text-2xl font-bold text-slate-900">{t('pricing.platformAccess.title')}</CardTitle>
               <div className="text-5xl font-bold text-slate-900 mt-4">
-                199 <span className="text-xl text-slate-600">SEK/month</span>
+                {t('pricing.platformAccess.price')} <span className="text-xl text-slate-600">{t('pricing.platformAccess.currency')}</span>
               </div>
-              <p className="text-slate-600">Per company (tenant)</p>
+              <p className="text-slate-600">{t('pricing.platformAccess.description')}</p>
             </CardHeader>
             <CardContent>
               <ul className="space-y-4">
                 <li className="flex items-center space-x-3">
                   <CheckCircle className="h-5 w-5 text-turquoise-green" />
-                  <span className="text-slate-800">Full platform access</span>
+                  <span className="text-slate-800">{t('pricing.platformAccess.features.fullAccess')}</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckCircle className="h-5 w-5 text-turquoise-green" />
-                  <span className="text-slate-800">Unlimited users</span>
+                  <span className="text-slate-800">{t('pricing.platformAccess.features.unlimitedUsers')}</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckCircle className="h-5 w-5 text-turquoise-green" />
-                  <span className="text-slate-800">24/7 support</span>
+                  <span className="text-slate-800">{t('pricing.platformAccess.features.support')}</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckCircle className="h-5 w-5 text-turquoise-green" />
-                  <span className="text-slate-800">GDPR compliance</span>
+                  <span className="text-slate-800">{t('pricing.platformAccess.features.gdpr')}</span>
                 </li>
               </ul>
             </CardContent>
@@ -50,33 +53,33 @@ const PricingSection = () => {
           <Card className="border-2 border-accent-yellow bg-accent-yellow/5 relative">
             <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
               <span className="bg-accent-yellow text-slate-900 px-4 py-1 rounded-full text-sm font-semibold">
-                Pay per module
+                {t('pricing.activeModules.badge')}
               </span>
             </div>
             <CardHeader className="text-center pb-8">
-              <CardTitle className="text-2xl font-bold text-slate-900">Active Modules</CardTitle>
+              <CardTitle className="text-2xl font-bold text-slate-900">{t('pricing.activeModules.title')}</CardTitle>
               <div className="text-5xl font-bold text-slate-900 mt-4">
-                59 <span className="text-xl text-slate-600">SEK/month</span>
+                {t('pricing.activeModules.price')} <span className="text-xl text-slate-600">{t('pricing.activeModules.currency')}</span>
               </div>
-              <p className="text-slate-600">Per active module</p>
+              <p className="text-slate-600">{t('pricing.activeModules.description')}</p>
             </CardHeader>
             <CardContent>
               <ul className="space-y-4">
                 <li className="flex items-center space-x-3">
                   <CheckCircle className="h-5 w-5 text-turquoise-green" />
-                  <span className="text-slate-800">Checklists module</span>
+                  <span className="text-slate-800">{t('pricing.activeModules.features.checklists')}</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckCircle className="h-5 w-5 text-turquoise-green" />
-                  <span className="text-slate-800">Deviation tracking</span>
+                  <span className="text-slate-800">{t('pricing.activeModules.features.deviations')}</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckCircle className="h-5 w-5 text-turquoise-green" />
-                  <span className="text-slate-800">Maintenance management</span>
+                  <span className="text-slate-800">{t('pricing.activeModules.features.maintenance')}</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckCircle className="h-5 w-5 text-turquoise-green" />
-                  <span className="text-slate-800">Issue reporting</span>
+                  <span className="text-slate-800">{t('pricing.activeModules.features.issues')}</span>
                 </li>
               </ul>
             </CardContent>
@@ -88,9 +91,9 @@ const PricingSection = () => {
             size="lg" 
             className="bg-primary-blue hover:bg-blue-700 text-white px-8 py-4 text-lg font-semibold"
           >
-            Start Free Trial
+            {t('pricing.startTrial')}
           </Button>
-          <p className="text-slate-600 mt-4">14-day free trial, no credit card required</p>
+          <p className="text-slate-600 mt-4">{t('pricing.trialNote')}</p>
         </div>
       </div>
     </section>

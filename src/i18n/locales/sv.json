@@ -1,0 +1,154 @@
+
+{
+  "header": {
+    "title": "System by Sections",
+    "features": "Funktioner",
+    "pricing": "Prissättning",
+    "about": "Om oss",
+    "login": "Logga in",
+    "getStarted": "Kom igång"
+  },
+  "hero": {
+    "title": "Digitalisera din produktion.",
+    "titleHighlight": "Sektion för sektion.",
+    "subtitle": "Modulära verktyg för modern tillverkning. Effektivisera verksamheten, spåra avvikelser och skala din digitala transformation.",
+    "getStarted": "Kom igång",
+    "seePricing": "Se priser",
+    "stats": {
+      "companies": "Företag",
+      "checklists": "Checklistor",
+      "uptime": "Drifttid",
+      "support": "Support"
+    }
+  },
+  "features": {
+    "title": "Allt du behöver för att modernisera produktionen",
+    "subtitle": "Vår modulära plattform växer med dina behov och tillhandahåller verktygen för att digitalisera alla aspekter av din tillverkningsverksamhet.",
+    "smartChecklists": {
+      "title": "Smarta checklistor",
+      "description": "Digitala checklistor för dagliga rutiner med framstegsspårning och automatiska påminnelser."
+    },
+    "deviationTracking": {
+      "title": "Avvikelsespårning",
+      "description": "Logga och spåra avvikelser med fullständiga revisionsloggar och korrigerande åtgärdsflöden."
+    },
+    "maintenanceManagement": {
+      "title": "Underhållshantering",
+      "description": "Schemalägg förebyggande underhåll och spåra utrustningsprestanda i realtid."
+    },
+    "issueReporting": {
+      "title": "Problemrapportering",
+      "description": "Strömlinjeformad problemhantering med uppföljningsåtgärder och lösningsspårning."
+    },
+    "dashboards": {
+      "title": "Realtidsdashboards",
+      "description": "Omfattande analys och rapportering för datadriven beslutsfattning."
+    },
+    "apiIntegration": {
+      "title": "REST API-integration",
+      "description": "Anslut sömlöst med dina befintliga system genom vårt kraftfulla API."
+    }
+  },
+  "benefits": {
+    "title": "Varför välja System by Sections?",
+    "subtitle": "Byggt specifikt för tillverkningsteam som vill digitalisera utan komplexitet",
+    "modular": "Modulärt och skalbart - Lägg till moduler när du växer",
+    "noPerUser": "Inga avgifter per användare - Obegränsat antal teammedlemmar inkluderat",
+    "builtForProduction": "Byggt för produktionsteam - Designat av tillverkningsexperter",
+    "modernDigitalization": "Stöder modern digitalisering - Molnbaserad arkitektur",
+    "powerfulApi": "Kraftfullt API för anpassade integrationer - Anslut till vilket system som helst",
+    "secure": "Säkert och GDPR-kompatibelt - Säkerhet på företagsnivå"
+  },
+  "howItWorks": {
+    "title": "Så fungerar det",
+    "subtitle": "Kom igång på minuter, inte månader. Vår strömlinjeformade installation får ditt team produktivt snabbt.",
+    "step1": {
+      "title": "Välj dina moduler",
+      "description": "Välj från vårt bibliotek av produktionsmoduler. Börja med det du behöver mest och lägg till mer senare."
+    },
+    "step2": {
+      "title": "Bjud in ditt team",
+      "description": "Lägg till obegränsat antal teammedlemmar utan extra kostnad. Ställ in roller och behörigheter för olika avdelningar."
+    },
+    "step3": {
+      "title": "Börja logga och förbättra",
+      "description": "Börja digitalisera dina processer omedelbart. Spåra prestanda och identifiera förbättringsmöjligheter."
+    }
+  },
+  "pricing": {
+    "title": "Enkel, transparent prissättning",
+    "subtitle": "Inga dolda avgifter, inga avgifter per användare. Betala bara för det du använder.",
+    "platformAccess": {
+      "title": "Plattformsåtkomst",
+      "price": "199",
+      "currency": "SEK/månad",
+      "description": "Per företag (tenant)",
+      "features": {
+        "fullAccess": "Full plattformsåtkomst",
+        "unlimitedUsers": "Obegränsat antal användare",
+        "support": "24/7 support",
+        "gdpr": "GDPR-efterlevnad"
+      }
+    },
+    "activeModules": {
+      "title": "Aktiva moduler",
+      "price": "59",
+      "currency": "SEK/månad",
+      "description": "Per aktiv modul",
+      "badge": "Betala per modul",
+      "features": {
+        "checklists": "Checklistemodul",
+        "deviations": "Avvikelsespårning",
+        "maintenance": "Underhållshantering",
+        "issues": "Problemrapportering"
+      }
+    },
+    "startTrial": "Starta gratis provperiod",
+    "trialNote": "14 dagars gratis provperiod, inget kreditkort krävs"
+  },
+  "faq": {
+    "title": "Vanliga frågor",
+    "subtitle": "Allt du behöver veta om System by Sections",
+    "questions": {
+      "freeTrial": {
+        "question": "Finns det en gratis provperiod?",
+        "answer": "Ja! Vi erbjuder en 14-dagars gratis provperiod med full tillgång till alla funktioner. Inget kreditkort krävs för att komma igång."
+      },
+      "addModules": {
+        "question": "Kan vi lägga till moduler senare?",
+        "answer": "Absolut. Vårt modulära tillvägagångssätt innebär att du kan börja med bara de moduler du behöver och lägga till fler när dina krav växer. Du betalar bara för aktiva moduler."
+      },
+      "powerBi": {
+        "question": "Hur ansluter jag till Power BI?",
+        "answer": "System by Sections inkluderar ett omfattande REST API som integreras sömlöst med Power BI. Vi tillhandahåller detaljerad dokumentation och kan hjälpa till med installationsprocessen."
+      },
+      "dataCancel": {
+        "question": "Vad händer med vår data om vi säger upp?",
+        "answer": "Din data tillhör dig. Vi tillhandahåller fullständiga dataexportmöjligheter och hjälper dig att migrera din data om det behövs. Vi behåller säkerhetskopior i 90 dagar efter uppsägning."
+      },
+      "userLimit": {
+        "question": "Finns det en gräns för antalet användare?",
+        "answer": "Nej, det finns inga användargränser. Du kan bjuda in obegränsat antal teammedlemmar utan extra kostnad. Du betalar bara plattformsavgiften och modulavgifterna."
+      },
+      "support": {
+        "question": "Tillhandahåller ni utbildning och support?",
+        "answer": "Ja, vi tillhandahåller omfattande introduktion, utbildningsmaterial och 24/7 support. Vårt team inkluderar tillverkningsexperter som förstår dina branschutmaningar."
+      }
+    }
+  },
+  "footer": {
+    "description": "Modulär digital plattform för tillverknings- och produktionsföretag. Digitalisera din verksamhet, sektion för sektion.",
+    "company": "Företag",
+    "platform": "Plattform",
+    "about": "Om oss",
+    "contact": "Kontakt",
+    "careers": "Karriärer",
+    "login": "Logga in",
+    "documentation": "Dokumentation",
+    "apiReference": "API-referens",
+    "copyright": "© 2024 System by Sections. Alla rättigheter förbehållna.",
+    "privacyPolicy": "Integritetspolicy",
+    "termsOfService": "Användarvillkor",
+    "gdprCompliance": "GDPR-efterlevnad"
+  }
+}

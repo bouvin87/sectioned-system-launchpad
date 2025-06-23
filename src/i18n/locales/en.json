@@ -1,0 +1,154 @@
+
+{
+  "header": {
+    "title": "System by Sections",
+    "features": "Features",
+    "pricing": "Pricing",
+    "about": "About",
+    "login": "Login",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "title": "Digitize Your Production.",
+    "titleHighlight": "Section by Section.",
+    "subtitle": "Modular tools for modern manufacturing. Streamline operations, track deviations, and scale your digital transformation.",
+    "getStarted": "Get Started",
+    "seePricing": "See Pricing",
+    "stats": {
+      "companies": "Companies",
+      "checklists": "Checklists",
+      "uptime": "Uptime",
+      "support": "Support"
+    }
+  },
+  "features": {
+    "title": "Everything you need to modernize production",
+    "subtitle": "Our modular platform grows with your needs, providing the tools to digitize every aspect of your manufacturing operations.",
+    "smartChecklists": {
+      "title": "Smart Checklists",
+      "description": "Digital checklists for daily routines with progress tracking and automated reminders."
+    },
+    "deviationTracking": {
+      "title": "Deviation Tracking",
+      "description": "Log and trace deviations with full audit trails and corrective action workflows."
+    },
+    "maintenanceManagement": {
+      "title": "Maintenance Management",
+      "description": "Schedule preventive maintenance and track equipment performance in real-time."
+    },
+    "issueReporting": {
+      "title": "Issue Reporting",
+      "description": "Streamlined issue management with follow-up actions and resolution tracking."
+    },
+    "dashboards": {
+      "title": "Real-time Dashboards",
+      "description": "Comprehensive analytics and reporting for data-driven decision making."
+    },
+    "apiIntegration": {
+      "title": "REST API Integration",
+      "description": "Seamlessly connect with your existing systems through our powerful API."
+    }
+  },
+  "benefits": {
+    "title": "Why choose System by Sections?",
+    "subtitle": "Built specifically for manufacturing teams who want to digitize without complexity",
+    "modular": "Modular and scalable - Add modules as you grow",
+    "noPerUser": "No per-user fees - Unlimited team members included",
+    "builtForProduction": "Built for production teams - Designed by manufacturing experts",
+    "modernDigitalization": "Supports modern digitalization - Cloud-first architecture",
+    "powerfulApi": "Powerful API for custom integrations - Connect with any system",
+    "secure": "Secure and GDPR compliant - Enterprise-grade security"
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "subtitle": "Get started in minutes, not months. Our streamlined setup gets your team productive fast.",
+    "step1": {
+      "title": "Choose your modules",
+      "description": "Select from our library of production modules. Start with what you need most and add more later."
+    },
+    "step2": {
+      "title": "Invite your team",
+      "description": "Add unlimited team members at no extra cost. Set up roles and permissions for different departments."
+    },
+    "step3": {
+      "title": "Start logging and improving",
+      "description": "Begin digitizing your processes immediately. Track performance and identify improvement opportunities."
+    }
+  },
+  "pricing": {
+    "title": "Simple, transparent pricing",
+    "subtitle": "No hidden fees, no per-user charges. Pay only for what you use.",
+    "platformAccess": {
+      "title": "Platform Access",
+      "price": "199",
+      "currency": "SEK/month",
+      "description": "Per company (tenant)",
+      "features": {
+        "fullAccess": "Full platform access",
+        "unlimitedUsers": "Unlimited users",
+        "support": "24/7 support",
+        "gdpr": "GDPR compliance"
+      }
+    },
+    "activeModules": {
+      "title": "Active Modules",
+      "price": "59",
+      "currency": "SEK/month",
+      "description": "Per active module",
+      "badge": "Pay per module",
+      "features": {
+        "checklists": "Checklists module",
+        "deviations": "Deviation tracking",
+        "maintenance": "Maintenance management",
+        "issues": "Issue reporting"
+      }
+    },
+    "startTrial": "Start Free Trial",
+    "trialNote": "14-day free trial, no credit card required"
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "subtitle": "Everything you need to know about System by Sections",
+    "questions": {
+      "freeTrial": {
+        "question": "Is there a free trial?",
+        "answer": "Yes! We offer a 14-day free trial with full access to all features. No credit card required to get started."
+      },
+      "addModules": {
+        "question": "Can we add modules later?",
+        "answer": "Absolutely. Our modular approach means you can start with just the modules you need and add more as your requirements grow. You only pay for active modules."
+      },
+      "powerBi": {
+        "question": "How do I connect with Power BI?",
+        "answer": "System by Sections includes a comprehensive REST API that integrates seamlessly with Power BI. We provide detailed documentation and can assist with the setup process."
+      },
+      "dataCancel": {
+        "question": "What happens to our data if we cancel?",
+        "answer": "Your data belongs to you. We provide full data export capabilities and will assist you in migrating your data if needed. We maintain backups for 90 days after cancellation."
+      },
+      "userLimit": {
+        "question": "Is there a limit on the number of users?",
+        "answer": "No, there are no user limits. You can invite unlimited team members at no additional cost. You only pay the platform fee and module fees."
+      },
+      "support": {
+        "question": "Do you provide training and support?",
+        "answer": "Yes, we provide comprehensive onboarding, training materials, and 24/7 support. Our team includes manufacturing experts who understand your industry challenges."
+      }
+    }
+  },
+  "footer": {
+    "description": "Modular digital platform for manufacturing and production companies. Digitize your operations, section by section.",
+    "company": "Company",
+    "platform": "Platform",
+    "about": "About",
+    "contact": "Contact",
+    "careers": "Careers",
+    "login": "Login",
+    "documentation": "Documentation",
+    "apiReference": "API Reference",
+    "copyright": "© 2024 System by Sections. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "gdprCompliance": "GDPR Compliance"
+  }
+}

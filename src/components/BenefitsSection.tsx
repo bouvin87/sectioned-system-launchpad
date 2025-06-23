@@ -1,26 +1,29 @@
 
 import { CheckCircle } from "lucide-react";
-
-const benefits = [
-  "Modular and scalable - Add modules as you grow",
-  "No per-user fees - Unlimited team members included",
-  "Built for production teams - Designed by manufacturing experts",
-  "Supports modern digitalization - Cloud-first architecture",
-  "Powerful API for custom integrations - Connect with any system",
-  "Secure and GDPR compliant - Enterprise-grade security"
-];
+import { useTranslation } from 'react-i18next';
 
 const BenefitsSection = () => {
+  const { t } = useTranslation();
+
+  const benefits = [
+    t('benefits.modular'),
+    t('benefits.noPerUser'),
+    t('benefits.builtForProduction'),
+    t('benefits.modernDigitalization'),
+    t('benefits.powerfulApi'),
+    t('benefits.secure')
+  ];
+
   return (
     <section className="py-20 bg-slate-50">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
-              Why choose System by Sections?
+              {t('benefits.title')}
             </h2>
             <p className="text-xl text-slate-600">
-              Built specifically for manufacturing teams who want to digitize without complexity
+              {t('benefits.subtitle')}
             </p>
           </div>
           
