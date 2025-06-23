@@ -19,6 +19,15 @@ export default {
 		},
 		extend: {
 			colors: {
+				// Custom brand colors
+				'primary-blue': '#276388',
+				'accent-yellow': '#FDC901',
+				'signal-red': '#E33913',
+				'turquoise-green': '#2E7F7F',
+				'dark-text-blue': '#1E293B',
+				'gray-text': '#94A3B8',
+				
+				// Keep existing shadcn colors for compatibility
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',

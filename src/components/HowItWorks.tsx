@@ -22,10 +22,10 @@ const HowItWorks = () => {
     <section className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
+          <h2 className="text-4xl lg:text-5xl font-bold text-dark-text-blue mb-6">
             How it works
           </h2>
-          <p className="text-xl text-slate-600 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-text max-w-2xl mx-auto">
             Get started in minutes, not months. Our streamlined setup gets your team productive fast.
           </p>
         </div>
@@ -34,13 +34,13 @@ const HowItWorks = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {steps.map((step, index) => (
               <div key={index} className="text-center group">
-                <div className="bg-emerald-500 text-white text-2xl font-bold w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-emerald-600 transition-colors">
+                <div className="bg-primary-blue text-white text-2xl font-bold w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary-blue/90 transition-colors">
                   {step.number}
                 </div>
-                <h3 className="text-2xl font-semibold text-slate-900 mb-4">
+                <h3 className="text-2xl font-semibold text-dark-text-blue mb-4">
                   {step.title}
                 </h3>
-                <p className="text-slate-600 leading-relaxed">
+                <p className="text-gray-text leading-relaxed">
                   {step.description}
                 </p>
                 {index < steps.length - 1 && (
