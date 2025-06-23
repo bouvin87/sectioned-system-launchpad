@@ -12,28 +12,28 @@ const Header = () => {
               alt="System by Sections Logo" 
               className="h-10 w-auto"
             />
-            <span className="text-xl font-bold text-dark-text-blue">
+            <span className="text-xl font-bold text-slate-900">
               System by Sections
             </span>
           </div>
           
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#features" className="text-dark-text-blue hover:text-primary-blue transition-colors font-medium">
+            <a href="#features" className="text-slate-700 hover:text-primary-blue transition-colors font-medium">
               Features
             </a>
-            <a href="#pricing" className="text-dark-text-blue hover:text-primary-blue transition-colors font-medium">
+            <a href="#pricing" className="text-slate-700 hover:text-primary-blue transition-colors font-medium">
               Pricing
             </a>
-            <a href="#about" className="text-dark-text-blue hover:text-primary-blue transition-colors font-medium">
+            <a href="#about" className="text-slate-700 hover:text-primary-blue transition-colors font-medium">
               About
             </a>
           </nav>
           
           <div className="flex items-center space-x-4">
-            <Button variant="ghost" className="text-dark-text-blue hover:text-primary-blue">
+            <Button variant="ghost" className="text-slate-700 hover:text-primary-blue hover:bg-slate-100">
               Login
             </Button>
-            <Button className="bg-primary-blue hover:bg-primary-blue/90 text-white">
+            <Button className="bg-primary-blue hover:bg-blue-700 text-white">
               Get Started
             </Button>
           </div>

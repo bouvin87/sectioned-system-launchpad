@@ -40,10 +40,10 @@ const FeatureHighlights = () => {
     <section className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-dark-text-blue mb-6">
+          <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
             Everything you need to modernize production
           </h2>
-          <p className="text-xl text-gray-text max-w-3xl mx-auto">
+          <p className="text-xl text-slate-600 max-w-3xl mx-auto">
             Our modular platform grows with your needs, providing the tools to digitize 
             every aspect of your manufacturing operations.
           </p>
@@ -56,13 +56,13 @@ const FeatureHighlights = () => {
               className="group hover:shadow-xl transition-all duration-300 border-slate-200 hover:border-primary-blue"
             >
               <CardContent className="p-8">
-                <div className="bg-accent-yellow/10 w-16 h-16 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent-yellow/20 transition-colors">
-                  <feature.icon className="h-8 w-8 text-accent-yellow" />
+                <div className="bg-primary-blue/10 w-16 h-16 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary-blue/20 transition-colors">
+                  <feature.icon className="h-8 w-8 text-primary-blue" />
                 </div>
-                <h3 className="text-xl font-semibold text-dark-text-blue mb-4">
+                <h3 className="text-xl font-semibold text-slate-900 mb-4">
                   {feature.title}
                 </h3>
-                <p className="text-gray-text leading-relaxed">
+                <p className="text-slate-600 leading-relaxed">
                   {feature.description}
                 </p>
               </CardContent>

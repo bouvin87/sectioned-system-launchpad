@@ -34,10 +34,10 @@ const FAQSection = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold text-dark-text-blue mb-6">
+            <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
               Frequently asked questions
             </h2>
-            <p className="text-xl text-gray-text">
+            <p className="text-xl text-slate-600">
               Everything you need to know about System by Sections
             </p>
           </div>
@@ -49,10 +49,10 @@ const FAQSection = () => {
                 value={`item-${index}`} 
                 className="border border-slate-200 rounded-lg px-6"
               >
-                <AccordionTrigger className="text-left font-semibold text-dark-text-blue hover:text-primary-blue transition-colors">
+                <AccordionTrigger className="text-left font-semibold text-slate-900 hover:text-primary-blue transition-colors">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-gray-text leading-relaxed pb-6">
+                <AccordionContent className="text-slate-600 leading-relaxed pb-6">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>
