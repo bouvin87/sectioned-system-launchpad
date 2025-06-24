@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle } from "lucide-react";
@@ -8,7 +7,7 @@ const PricingSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="py-20 bg-slate-50">
+    <section id="pricing" className="py-20 bg-slate-50">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
