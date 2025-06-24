@@ -52,6 +52,12 @@ const Header = () => {
             >
               {t('header.about')}
             </button>
+            <button 
+              onClick={() => scrollToSection('contact')} 
+              className="text-slate-700 hover:text-primary-blue transition-colors font-medium"
+            >
+              {t('header.contact')}
+            </button>
           </nav>
           
           {/* Desktop Buttons */}
@@ -61,7 +67,7 @@ const Header = () => {
               {t('header.login')}
             </Button>
             <Button 
-              onClick={() => scrollToSection('pricing')}
+              onClick={() => scrollToSection('contact')}
               className="bg-primary-blue hover:bg-blue-700 text-white"
             >
               {t('header.getStarted')}
@@ -102,12 +108,18 @@ const Header = () => {
               >
                 {t('header.about')}
               </button>
+              <button 
+                onClick={() => scrollToSection('contact')} 
+                className="text-left text-slate-700 hover:text-primary-blue transition-colors font-medium py-2"
+              >
+                {t('header.contact')}
+              </button>
               <div className="flex flex-col space-y-3 pt-4 border-t border-slate-200">
                 <Button variant="ghost" className="justify-start text-slate-700 hover:text-primary-blue hover:bg-slate-100">
                   {t('header.login')}
                 </Button>
                 <Button 
-                  onClick={() => scrollToSection('pricing')}
+                  onClick={() => scrollToSection('contact')}
                   className="bg-primary-blue hover:bg-blue-700 text-white"
                 >
                   {t('header.getStarted')}

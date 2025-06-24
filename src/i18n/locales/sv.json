@@ -5,6 +5,7 @@
     "features": "Funktioner",
     "pricing": "Prissättning",
     "about": "Om oss",
+    "contact": "Kontakt",
     "login": "Logga in",
     "getStarted": "Kom igång"
   },
@@ -105,6 +106,26 @@
     },
     "startTrial": "Starta gratis provperiod",
     "trialNote": "14 dagars gratis provperiod, inget kreditkort krävs"
+  },
+  "contact": {
+    "title": "Kontakta oss",
+    "subtitle": "Redo att komma igång? Hör av dig så hjälper vi dig att digitalisera din produktion.",
+    "form": {
+      "name": "Namn",
+      "email": "E-post",
+      "company": "Företag",
+      "subject": "Ämne",
+      "message": "Meddelande",
+      "send": "Skicka meddelande",
+      "sending": "Skickar...",
+      "success": "Tack! Vi återkommer inom kort.",
+      "error": "Något gick fel. Försök igen.",
+      "nameRequired": "Namn är obligatoriskt",
+      "emailRequired": "E-post är obligatorisk",
+      "emailInvalid": "Ogiltig e-postadress",
+      "messageRequired": "Meddelande är obligatoriskt"
+    },
+    "defaultSubject": "Begär gratis provperiod"
   },
   "faq": {
     "title": "Vanliga frågor",

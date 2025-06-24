@@ -1,11 +1,10 @@
+
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
-  const {
-    t
-  } = useTranslation();
+  const { t } = useTranslation();
   
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -14,7 +13,8 @@ const Hero = () => {
     }
   };
 
-  return <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-primary-blue text-white">
+  return (
+    <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-primary-blue text-white">
       <div className="container mx-auto px-6 py-20 lg:py-32">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl lg:text-7xl font-bold mb-8 leading-tight text-white">
@@ -27,7 +27,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               size="lg" 
-              onClick={() => scrollToSection('pricing')}
+              onClick={() => scrollToSection('contact')}
               className="bg-accent-yellow hover:bg-yellow-400 text-slate-900 px-8 py-4 text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg"
             >
               {t('hero.getStarted')}
@@ -62,7 +62,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
 
 export default Hero;

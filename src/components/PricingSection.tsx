@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle } from "lucide-react";
@@ -5,6 +6,13 @@ import { useTranslation } from 'react-i18next';
 
 const PricingSection = () => {
   const { t } = useTranslation();
+
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <section id="pricing" className="py-20 bg-slate-50">
@@ -88,6 +96,7 @@ const PricingSection = () => {
         <div className="text-center mt-12">
           <Button 
             size="lg" 
+            onClick={() => scrollToSection('contact')}
             className="bg-primary-blue hover:bg-blue-700 text-white px-8 py-4 text-lg font-semibold"
           >
             {t('pricing.startTrial')}

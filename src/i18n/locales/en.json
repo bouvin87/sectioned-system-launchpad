@@ -5,6 +5,7 @@
     "features": "Features",
     "pricing": "Pricing",
     "about": "About",
+    "contact": "Contact",
     "login": "Login",
     "getStarted": "Get Started"
   },
@@ -105,6 +106,26 @@
     },
     "startTrial": "Start Free Trial",
     "trialNote": "14-day free trial, no credit card required"
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "Ready to get started? Get in touch and we'll help you digitize your production.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "company": "Company",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Thank you! We'll get back to you soon.",
+      "error": "Something went wrong. Please try again.",
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email address",
+      "messageRequired": "Message is required"
+    },
+    "defaultSubject": "Request free trial"
   },
   "faq": {
     "title": "Frequently asked questions",
