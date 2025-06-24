@@ -60,7 +60,10 @@ const Header = () => {
             <Button variant="ghost" className="text-slate-700 hover:text-primary-blue hover:bg-slate-100">
               {t('header.login')}
             </Button>
-            <Button className="bg-primary-blue hover:bg-blue-700 text-white">
+            <Button 
+              onClick={() => scrollToSection('pricing')}
+              className="bg-primary-blue hover:bg-blue-700 text-white"
+            >
               {t('header.getStarted')}
             </Button>
           </div>
@@ -103,7 +106,10 @@ const Header = () => {
                 <Button variant="ghost" className="justify-start text-slate-700 hover:text-primary-blue hover:bg-slate-100">
                   {t('header.login')}
                 </Button>
-                <Button className="bg-primary-blue hover:bg-blue-700 text-white">
+                <Button 
+                  onClick={() => scrollToSection('pricing')}
+                  className="bg-primary-blue hover:bg-blue-700 text-white"
+                >
                   {t('header.getStarted')}
                 </Button>
               </div>
